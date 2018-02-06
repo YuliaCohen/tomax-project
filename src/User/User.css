@@ -1,0 +1,33 @@
+.usersBox {
+	float: right;
+	width: 20%;
+}
+.User {
+	background-color: #fff;
+}
+.userDetails{
+	margin: 15px;
+	border:1px solid #D8D8D8;
+	box-shadow: 0px 2px 10px -7px rgba(0,0,0,0.75);
+}
+.User img{
+	width:80%;
+	margin: auto;
+}
+.User p{
+	border-top: 1px solid #D8D8D8;
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+	color:#39454F;
+}
+
+@media only screen and (max-width: 991px) {
+	.usersBox{
+		width: 100%;
+	}
+	.User {
+		float: left;
+		width: 33%;
+	}
+}

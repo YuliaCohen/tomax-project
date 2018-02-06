@@ -1,0 +1,24 @@
+{
+  "name": "tomax-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "html2canvas": "^1.0.0-alpha.9",
+    "html2canvas-proxy": "^1.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-drag-and-drop": "^2.4.0",
+    "react-resizable": "^1.7.5",
+    "react-scripts": "1.1.0",
+    "save-svg-as-png": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

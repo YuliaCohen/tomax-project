@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+.App .userGround{
+	overflow: hidden;
+}
+
+
+.App a:hover {
+	background-color: #39454F;
+	color:#fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+}

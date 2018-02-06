@@ -1,0 +1,60 @@
+.Board{
+	width: 80%;
+	float: left;
+}
+.Board .boardCanvas{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../view.jpg);
+	background-size:cover; 
+	position: relative;
+}
+
+.droppedUsers{
+	padding: 10px;
+}
+.droppedUsers img{
+	width: 100%;
+	height: 100%;
+	float: left;
+	position: absolute;
+}
+.react-resizable{
+	position: relative;
+}
+
+.react-resizable-handle{
+	position: absolute;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+}
+.btnHold{
+	width: 100%;
+    overflow: hidden;
+    position: absolute;
+    bottom:-70px;
+}
+.userGround a {
+	padding: 15px 25px;
+	text-transform: uppercase;
+	background-color: #fff;
+	color:#39454F;
+	border: 1px solid #39454F;
+	text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    width: 100px;
+    margin-top: 20px; 
+}
+
+@media only screen and (max-width: 991px) {
+	.Board,
+	.Board .boardCanvas{
+		width: 100%;
+	}
+	.btnHold {
+		position: relative;
+		bottom: 20px;
+	}
+}
